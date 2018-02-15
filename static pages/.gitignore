@@ -1,0 +1,5 @@
+node_modules/
+vendor/
+src/images/**
+src/includes/config.php
+dist/assets/img/**

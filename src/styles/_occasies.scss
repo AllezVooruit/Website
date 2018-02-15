@@ -1,0 +1,178 @@
+/*
+ * Occasies specific styles
+ *
+ * @author Rogier van der Linde <rogier@bitmatters.be>
+ *
+ */
+
+/* filters */
+
+#lblSearch {
+    display: block;
+    font-family: Tinos;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 5rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    width: 18.5rem;
+}
+
+select {
+	-webkit-appearance: none;
+	background: url(../images/pijltje.png) no-repeat left;
+	background-size:  auto 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.26);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.26);
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.26);
+	display: block;
+	font-family: 'Open Sans';
+	font-size: 1.4rem;
+	height: 3rem;
+	line-height: 1;
+	overflow: hidden;
+	padding: 0.5rem 2rem 0.5rem 2.5rem;
+	margin-bottom: 1rem;
+	min-width: 16.5rem;
+}
+
+#lnkAll {
+    color: rgb(163,145,97);
+	display: block;
+    font-family: Tinos;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 5rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#filters, #houtblazers, #koperblazers {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+/* items layout */
+
+.right {
+	clear: both;
+}
+
+/* item */
+
+.item {
+	clear: left;
+}
+
+.item hr {
+	clear: both;
+	margin: 1rem 0;
+}
+
+.item .title {
+	margin-bottom: 1.3rem;
+}
+
+.item .contact_us {
+	color: black;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.item .contact_us:hover {
+	text-decoration: underline;
+}
+
+.thumbs {
+    margin-top: 0;
+}
+
+.item a.viewAll {
+	color: rgb(163,145,97);
+	font-family: Tinos;
+	font-size: 1.4rem;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 3rem;
+	text-transform: uppercase;
+}
+
+.item a.viewAll:hover {
+	text-decoration: none;
+}
+
+.item p.p_viewAll {
+	clear: both;
+}
+
+@media (min-width: 35em) { /* 560px */
+	.item a.viewAll {
+		line-height: 4rem;
+	}
+}
+
+@media (min-width: 30em) { /* 480px */
+	select {
+		display: inline-block;
+	}
+	select + select {
+		margin-left: 2rem;
+	}
+}
+
+@media (min-width: 37.5em) { /* 600px */
+	.right {
+		padding-top: 1rem;
+	}
+}
+
+@media (min-width: 40em) { /* 640px */
+	#lblSearch {
+	    display: inline;
+	}
+	#lnkAll {
+		margin-left: 18.5rem;
+	}
+}
+
+@media (min-width: 50em) { /* 800px */
+	#filters, #houtblazers, #koperblazers {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.item hr {
+		margin-top: 2rem;
+	}
+}
+
+@media (min-width: 60em) { /* 960px */
+	#lnkAll {
+		float: right;
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 75em) { /* 1200px */
+	.item p.p_viewAll {
+		clear: inherit;
+		padding-right: 1rem;
+		text-align: right;
+	}
+	.left {
+		float: left;
+		margin-right: 5rem;
+		width: 64rem;
+	}
+	.right {
+		clear: none;
+		float: left;
+		padding-top: 0;
+		width: 27rem;
+	}
+}
+

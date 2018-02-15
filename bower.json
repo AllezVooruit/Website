@@ -1,0 +1,21 @@
+{
+  "name": "cs-boilerplate",
+  "description": "This is a boilerplate for future use",
+  "main": "index.js",
+  "authors": [
+    "Joachim Cardoen"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JCardoen/boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "lightbox#^2.10.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

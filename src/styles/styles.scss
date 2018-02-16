@@ -1,0 +1,83 @@
+/*
+ * Contact cards styles
+ *
+ * @author Rogier van der Linde <rogier@bitmatters.be>
+ */
+
+/* ===========================================
+    General
+    =========================================== */
+
+/* elements */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #e5e9ed;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #428bca;
+    outline: none;
+}
+
+a:hover {
+    color: #2a6496;
+}
+
+/* classes */
+
+/* ===========================================
+    Header
+    =========================================== */
+
+
+/* ===========================================
+    Content
+    =========================================== */
+
+
+/* ===========================================
+    Footer
+    =========================================== */
+
+.page__footer {
+    background-color: #fff;
+    min-height: 20rem;
+    padding: 6rem 6rem 2rem;
+    text-align: center;
+}
+
+
+/* ===========================================
+    Media queries
+    =========================================== */
+
+
+@media (min-width: 30em) { /* 480px */
+
+}
+
+@media (min-width: 37.5em) { /* 600px */
+
+}
+
+@media (min-width: 50em) { /* 800px */
+}
+
+@media (min-width: 60em) { /* 960px */
+
+}
+
+

@@ -66,6 +66,14 @@ header {
     margin-left: 5.5rem;
     margin: 0 auto;
     text-align: left;
+    float: left;
+}
+
+.header__logo a {
+    background-image: url(../img/vooruitLogo.png);
+	width: 10rem;
+	height: 7rem;
+	background-repeat: no-repeat;
 }
 
 .logo__title {
@@ -90,68 +98,44 @@ header {
 /* navigation */
 
 .header__navigation {
-    margin-top: 0.7rem;
     list-style: none;
     font-size: 1.4rem;
     font-weight: bold;
-    padding: 0 2%;
 }
 
-.header__navigation li {
-    margin: 0.5rem 0;
+.navigation__menu li {
+    display: inline-block;
 }
 
-#mainmenu a {
+.navigation__menu a {
+    padding: 1rem 1.5rem 1rem 1.5rem;
     color: #fff;
     background-color: #888;
     display: block;
-    padding: 1% 2%;
     text-decoration: none;
 }
 
-#mainmenu a:hover, #mainmenu a.selected {
+.navigation__menu a:hover, .navigation__menu a.selected {
     color: #fff;
     background-color: #333;
 }
-
-/* banner */
-
-#banner {
-    clear: both;
-    display: none;
-}
-
-/* ===========================================
-    Content
-    =========================================== */
 
 /* ===========================================
     Footer
     =========================================== */
 
 .page__footer {
-    background-color: #fff;
-    min-height: 20rem;
-    padding: 6rem 6rem 2rem;
-    text-align: center;
+	padding: 3rem;
+	text-align: center;
+	color: #e9e9e9;
+	line-height: 2.5rem;
+	background-color: #999;
 }
 
-/* ===========================================
-    Media queries
-    =========================================== */
-
-@media (min-width: 30em) {
-    /* 480px */
+.page__footer a {
+    color: #333;
 }
 
-@media (min-width: 37.5em) {
-    /* 600px */
-}
-
-@media (min-width: 50em) {
-    /* 800px */
-}
-
-@media (min-width: 60em) {
-    /* 960px */
+.page__footer a:hover, .page__footer a.selected {
+    color: #000;
 }

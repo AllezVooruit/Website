@@ -1,14 +1,38 @@
-.program__list{
+/*
+ * Evenement css file
+ */
+
+/* ===========================================
+    Content
+    =========================================== */
+
+/* =============================================
+* EVENEMENT - INTRO
+=============================================== */
+
+
+
+/* =============================================
+* EVENEMENT - LIST
+=============================================== */
+
+.program__list {
     list-style: none;
     margin-bottom: 5rem;
     margin-top: 3rem;
 }
-.program__item{
+
+.list__item {
     margin-top: 2rem;
 }
-.item__img{
-    width: 25%;
+
+.item__img {
+    width: 20%;
     float: left;
     margin-right: 3rem;
 }
 
+.item__text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

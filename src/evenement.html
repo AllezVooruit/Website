@@ -1,15 +1,13 @@
 <!--
     HTML file
-    home page
-    
-    @author Tom Beuckelaere
+    Evenement page
 -->
 
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="oldie ie6" lang="en"><![endif]-->
-<!--[if IE 7 ]><html class="oldie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="oldie ie8" lang="en"><![endif]-->
-<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if lt IE 7 ]><html class="oldie ie6" lang="nl"><![endif]-->
+<!--[if IE 7 ]><html class="oldie ie7" lang="nl"><![endif]-->
+<!--[if IE 8 ]><html class="oldie ie8" lang="nl"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="nl"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="nl">
 <!--<![endif]-->
@@ -22,7 +20,7 @@
 
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <title>Allez Vooruit!</title>
+    <title>Niet Achteruit - Evenement</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/evenement.css" />
     <link rel="stylesheet" href="css/library.css" />
@@ -35,7 +33,7 @@
         <header class="page__header clearfix">
             <div class="header__logo">
                 <h1 class="logo__title">
-                    <a href="index.html" class="logo__img ir">Allez Vooruit!</a>
+                    <a href="index.html" class="logo__img ir">Niet Achteruit</a>
                 </h1>
             </div>
             <nav class="header__navigation">
@@ -45,7 +43,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="evenement.html">Evenement</a>
+                        <a href="evenement.html" class="selected">Evenement</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
@@ -69,62 +67,75 @@
                 <h2 class=introduction__title>School of tomorrow</h2>
                 <p class="introduction__text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni
-                    natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit accusantium tempore earum
-                    eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam
-                    neque dolorem at. Dolore, placeat et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque
-                    fugiat.
+                    natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit
+                    amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus
+                    velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit
+                    accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.
                 </p>
             </div>
             <div class="content__program">
                 <h2 class="program__title">Programma</h2>
                 <ul class="program__list clearfix">
-                    <li class="program__item clearfix">
-                        <img src="img/programItem.png" class="item__img"/>
-                        <h3>Workshops</h3><h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
-                        <p>
-                            Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni
-                            natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit accusantium tempore earum eum
-                            quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem
-                            at.
-                        </p>
-                    </li>
-                    <li class="program__item clearfix">
+                    <li class="list__item clearfix">
                         <img src="img/programItem.png" class="item__img" />
-                        <h3>Workshops</h3>
-                        <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
-                        <p>
-                            Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
-                            et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor
-                            sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit
-                            accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Rem harum ipsam neque dolorem at.
-                        </p>
+                        <div class="item__text">
+                            <h3>Workshops</h3>
+                            <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
+                            <p>
+                                Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
+                                et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore,
+                                placeat et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque
+                                fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem
+                                at.
+                            </p>
+                        </div>
                     </li>
-                    <li class="program__item clearfix">
+                    <li class="list__item clearfix">
                         <img src="img/programItem.png" class="item__img" />
-                        <h3>Workshops</h3>
-                        <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
-                        <p>
-                            Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
-                            et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor
-                            sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit
-                            accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Rem harum ipsam neque dolorem at.
-                        </p>
+                        <div class="item__text">
+                            <h3>Workshops</h3>
+                            <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
+                            <p>
+                                Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
+                                et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore,
+                                placeat et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque
+                                fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem
+                                at.
+                            </p>
+                        </div>
                     </li>
-                    <li class="program__item clearfix">
+                    <li class="list__item clearfix">
                         <img src="img/programItem.png" class="item__img" />
-                        <h3>Workshops</h3>
-                        <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
-                        <p>
-                            Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
-                            et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor
-                            sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat et ab, magni natus velit
-                            accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Rem harum ipsam neque dolorem at.
-                        </p>
+                        <div class="item__text">
+                            <h3>Workshops</h3>
+                            <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
+                            <p>
+                                Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
+                                et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore,
+                                placeat et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque
+                                fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem
+                                at.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list__item clearfix">
+                        <img src="img/programItem.png" class="item__img" />
+                        <div class="item__text">
+                            <h3>Workshops</h3>
+                            <h4>Woensdag 28 maart 2018 - Balzaal Vooruit</h4>
+                            <p>
+                                Beschrijving deel.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore, placeat
+                                et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque fugiat.Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem at. Dolore,
+                                placeat et ab, magni natus velit accusantium tempore earum eum quisquam dolorum debitis cumque
+                                fugiat.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem harum ipsam neque dolorem
+                                at.
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -134,7 +145,7 @@
         <footer class="page__footer">
             <p>
                 &copy; 2018,
-                <a href="index.html" title="AllezVooruit.be">AllezVooruit.be</a>
+                <a href="index.html" title="NietAchteruit.be">NietAchteruit.be</a>
             </p>
         </footer>
     </div>

@@ -1,7 +1,5 @@
 /*
  * Basic css file
- *
- *
  */
 
 /* ===========================================
@@ -24,10 +22,10 @@ html {
 }
 
 body {
-    background-color: #e5e9ed;
+    background-color: #EEE;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.4rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     line-height: 1.5;
 }
 
@@ -49,11 +47,16 @@ a:hover {
     max-width: 96rem;
     min-width: 48rem;
     margin: auto;
+    background-color: #CCC;
 }
 
 h2 {
     margin-top: 1rem;
     margin-bottom: .5rem;
+}
+
+.page__content {
+    padding: 0 1rem 0 1rem;
 }
 
 /* ===========================================

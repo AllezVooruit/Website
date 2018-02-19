@@ -1,7 +1,7 @@
 /*
  * Basic css file
  *
- * @author Wiebe Willems
+ *
  */
 
 /* ===========================================
@@ -51,6 +51,11 @@ a:hover {
     margin: auto;
 }
 
+h2 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
 /* ===========================================
     Header
     =========================================== */
@@ -64,6 +69,7 @@ header {
 
 .header__logo {
     float: left;
+    margin-left: 1rem;
 }
 
 .header__logo a {
@@ -100,6 +106,7 @@ header {
     font-weight: bold;
     float: right;
     margin-top: 2rem;
+    margin-right: 1rem;
 }
 
 .navigation__menu li {
@@ -128,7 +135,8 @@ header {
 	text-align: center;
 	color: #e9e9e9;
 	line-height: 2.5rem;
-	background-color: #999;
+    background-color: #999;
+    margin-top: 1rem;
 }
 
 .page__footer a {

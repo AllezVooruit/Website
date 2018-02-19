@@ -1,0 +1,14 @@
+.program__list{
+    list-style: none;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+.program__item{
+    margin-top: 2rem;
+}
+.item__img{
+    width: 25%;
+    float: left;
+    margin-right: 3rem;
+}
+

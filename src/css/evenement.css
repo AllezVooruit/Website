@@ -18,21 +18,21 @@
 
 .program__list{
     list-style: none;
-    margin-bottom: 5rem;
-    margin-top: 3rem;
 }
 
 .list__item {
-    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .item__img {
     width: 20%;
     float: left;
-    margin-right: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
 }
 
 .item__text {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    width: 80%;
+    float: right;
 }

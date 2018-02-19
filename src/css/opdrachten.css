@@ -7,5 +7,22 @@
     =========================================== */
 
 /* =============================================
-* EVENEMENT - INTRO
+* OPDRACHTEN - TABLE
 =============================================== */
+
+.exercises__table tr td:first-child {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+    display: inline-block;
+}
+
+.exercises__table .checked {
+    background-image: url(../img/checkedCheckbox.png);
+    background-repeat: no-repeat;
+}
+
+.exercises__table .unchecked {
+    background-image: url(../img/uncheckedCheckbox.png);
+    background-repeat: no-repeat;
+}

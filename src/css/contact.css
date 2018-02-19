@@ -7,5 +7,115 @@
     =========================================== */
 
 /* =============================================
-* EVENEMENT - INTRO
+* CONTACT - CONTACT
 =============================================== */
+
+
+
+/* =============================================
+* CONTACT - VOORUIT
+=============================================== */
+
+.vooruit__link img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =============================================
+* CONTACT - CHAT
+=============================================== */
+
+.content__chat div, hr {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* conversation box */
+
+.chat__chatbox {
+    background-color: #EEE;
+    height: 50rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+/* conversation box comment*/
+
+.chatbox__message {
+    padding-top: 1rem;
+    min-height: 5rem;
+}
+
+.chatbox__message p {
+    color: #666666;
+    padding-left: 5rem;
+}
+
+.chatbox__message img {
+    float: left;
+    margin-left: .5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+/* divider */
+
+.chatbox__divider {
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+/* new comment */
+
+#newcomment__text {
+    display: block;
+    background-color: white;
+    height: 10rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+#newcomment__email {
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.newcomment__label {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.newcomment__buttons {
+    display: block;
+    overflow: hidden;
+}
+
+#newcomment__add {
+    float: right;
+    margin: 2rem 0.5rem 4rem 0;
+    border: 1px solid #999;
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1rem
+}
+
+#newcomment__add:hover {
+    background-color: white;
+}

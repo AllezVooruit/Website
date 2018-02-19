@@ -1,0 +1,17 @@
+/*
+ * Manifest css file
+ */
+
+/* ===========================================
+    Content
+    =========================================== */
+
+/* =============================================
+* MANIFEST - MANIFEST
+=============================================== */
+
+.manifest__text {
+    line-height: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}

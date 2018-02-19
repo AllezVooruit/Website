@@ -50,7 +50,7 @@ a:hover {
     background-color: #CCC;
 }
 
-h2 {
+h2, h3 {
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
@@ -139,7 +139,6 @@ header {
 	color: #e9e9e9;
 	line-height: 2.5rem;
     background-color: #999;
-    margin-top: 1rem;
 }
 
 .page__footer a {

@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-color: #EEE;
+    background-color: #fff;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.4rem;
     margin-top: 0rem;
@@ -47,7 +47,11 @@ a:hover {
     max-width: 96rem;
     min-width: 48rem;
     margin: auto;
+<<<<<<< HEAD
     background-color:#FFF;
+=======
+    background-color: #fff;
+>>>>>>> be91171fac0fd8355282832a9008fa8eecf53b01
 }
 
 h2, h3 {
@@ -59,17 +63,34 @@ h2, h3 {
     padding: 0 1rem 0 1rem;
 }
 
+/* Header & Footer squares */
+
+.navigation__menu li {
+    display: block;
+    list-style: none;
+    width: 5.5555555555%;
+    line-height: 5rem;
+    text-align: center;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: #000;
+    float: left;
+    border: 1px solid white;
+}
+
 /* ===========================================
     Header
     =========================================== */
 
 header {
-    padding: 1rem;
-    background-color: #999;
+    background-color: #FFF;
+    height: 10rem;
+    margin-bottom: 2rem;
 }
 
 /* logo */
 
+<<<<<<< HEAD
 .header__logo {
     float: left;
     margin-left: 1rem;
@@ -91,42 +112,45 @@ header {
 }
 
 .logo__title a:hover {
+=======
+.menu__logo {
+>>>>>>> be91171fac0fd8355282832a9008fa8eecf53b01
     text-decoration: none;
-}
-
-.logo__title p {
-    font-size: 1.4rem;
-    color: #555;
-    font-style: italic;
-    text-align: center;
+    font-size: 2rem;
 }
 
 /* navigation */
 
 .header__navigation {
-    list-style: none;
-    font-size: 1.4rem;
     font-weight: bold;
-    float: right;
-    margin-top: 2rem;
-    margin-right: 1rem;
+    color: #fff;
 }
 
-.navigation__menu li {
-    display: inline-block;
+.navigation__menu .menu__text {
+    width: 11.1111111%;
 }
 
 .navigation__menu a {
-    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.4rem;
     color: #fff;
-    background-color: #888;
     display: block;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
-.navigation__menu a:hover, .navigation__menu a.selected {
+.page__header .navigation__menu a:hover, .navigation__menu a.selected {
     color: #fff;
-    background-color: #333;
+    background-color: #c20e1a;
+}
+
+/* -UIT */
+
+.header__logo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 24rem;
+    letter-spacing: 2px;
 }
 
 /* ===========================================
@@ -134,17 +158,146 @@ header {
     =========================================== */
 
 .page__footer {
-	padding: 3rem;
-	text-align: center;
-	color: #e9e9e9;
-	line-height: 2.5rem;
-    background-color: #999;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #fff;
 }
 
-.page__footer a {
-    color: #333;
+.page__footer .menu__partners>a:hover {
+    background-color: #c20e1a;
 }
 
-.page__footer a:hover, .page__footer a.selected {
-    color: #000;
+.navigation__menu {
+    position: relative;
+}
+
+.before__partner-1 {
+    position: absolute;
+    left: 0;
+    top: 5rem;
+}
+
+.before__partner-2 {
+    position: absolute;
+    left: 5.555555%;
+    top: 5rem;
+}
+
+.before__partner-3 {
+    position: absolute;
+    top: 5rem;
+    left: 22.2222222%;
+}
+
+.before__partner-4 {
+    position: absolute;
+    top: 5rem;
+    left: 27.777777%;
+}
+
+.before__partner-5 {
+    position: absolute;
+    top: 5rem;
+    left: 33.333333%;
+}
+
+.before__partner-6 {
+    position: absolute;
+    top: 5rem;
+    left: 38.888888%;
+}
+
+.before__partner-7 {
+    position: absolute;
+    top: 5rem;
+    left: 44.444444%;
+}
+
+.before__partner-8 {
+    position: absolute;
+    top: 5rem;
+    left: 49.998888%;
+}
+
+.before__partner-9 {
+    position: absolute;
+    top: 5rem;
+    left: 55.5555555%;
+}
+
+.before__partner-10 {
+    position: absolute;
+    top: 5rem;
+    left: 61.111111%;
+}
+
+.before__partner-11 {
+    position: absolute;
+    top: 5rem;
+    left: 66.666666%;
+}
+
+.before__partner-12 {
+    position: absolute;
+    top: 5rem;
+    left: 72.222222%;
+}
+
+.navigation__menu .menu__partners {
+    width: 11.111111%;
+    height: 10rem;
+}
+
+.menu__partners img {
+    width: 90%;
+    height: 90%;
+    margin-top: .5rem;
+}
+
+/* Social Media Icons */
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.navigation__menu .fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+
+.fa-instagram {
+    background: #4c68d7;
+    color: white;
+}
+
+/* Youtube */
+
+.fa-youtube {
+    background: #ff0000;
+    color: white;
 }

@@ -2,20 +2,19 @@
  * Library
  */
 
-
 /*********************************************
  * CLEARFIX
  *********************************************/
 
- .clearfix:after { 
-	content: ""; 
-	display: table; 
-	clear: both; 
-} 
-.clearfix { 
-	zoom: 1; 
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
+.clearfix {
+	zoom: 1;
+}
 
 /*********************************************
  * RESET
@@ -29,7 +28,7 @@
 img {
 	border: 0;
 }
-	
+
 /* ===========================================
 	 Helpers & Starters
 	 =========================================== */
@@ -47,19 +46,18 @@ img {
 
 .ir {
 	display: block;
-	background-size: 100%; 
+	background-size: 100%;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 }
 
 .icons {
-	width:5rem;
-	height:5rem;
-	background-size: 1100% 300%; 
+	width: 5rem;
+	height: 5rem;
+	background-size: 1100% 300%;
 }
 
 ul.inline li {
 	display: inline-block;
 }
-

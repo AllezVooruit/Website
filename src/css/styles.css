@@ -47,7 +47,7 @@ a:hover {
     max-width: 96rem;
     min-width: 48rem;
     margin: auto;
-    background-color: #CCC;
+    background-color:#FFF;
 }
 
 h2, h3 {
@@ -76,9 +76,9 @@ header {
 }
 
 .header__logo a {
-    background-image: url(../img/vooruitLogo.png);
-	width: 8rem;
-	height: 8rem;
+    background-image: url(../img/logo.png);
+	width: 12rem;
+	height: 12rem;
 	background-repeat: no-repeat;
 }
 

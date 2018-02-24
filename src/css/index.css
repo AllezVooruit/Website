@@ -10,6 +10,17 @@
 * INDEX PAGE - INTRO
 =============================================== */
 
+.content__introduction{
+    background-color: white; 
+}
+
+iframe{
+    margin-left: 16rem;
+    margin-right: 16rem;
+    width: 60rem;
+    height: 33rem;
+}
+
 .introduction__img {
     float: left;
     width: 10%;
@@ -34,32 +45,117 @@
 * INDEX PAGE - WJD
 =============================================== */
 
-.wjd__list {
+.content__list {
     list-style: none;
 }
 
-.wjd__list img {
-    height: 50%;
-    width: 50%;
-    margin: 0rem auto .5rem auto;
+.content__list img {
+    height: 100%;
+    width: 100%;
     display: block;
 }
 
-.wjd__list li {
+.content__list li {
     display: inline-block;
-    padding: 0 .5rem 0 .5rem;
-    border-right: 1px solid #111;
+    
 }
 
-.wjd__list li:last-child {
+.content__list li:last-child {
     border-right: none;
 }
 
-.content__wjd .column {
-    width: 25%;
+.content__main .column {
+    width: 33%;
     float: left;
+    height: 20vw;
 }
 
-.content__wjd p {
-    text-align: center;
+.column__black{
+    background-color: black;
 }
+
+.column__red{
+    background-color: red;
+    text-align: center;
+    border: black 1px solid;
+}
+.column__red h3{
+    position: relative;
+    top: 7vw;    
+}
+
+.column h3{
+    color: white;
+    padding:0 5%;
+    font-size: 22px;
+}
+
+#verstandig{
+    float: right;
+}
+
+#opstandig{
+    position: relative;
+    top: 14vw;
+}
+
+.first{
+    background-color: black;
+}
+
+.content__main p {
+    text-align: left;
+    padding: 1rem;
+}
+
+
+/* ==========================================================================
+   Resposive stuff
+   ========================================================================== */
+@media (max-width: 80em) { 
+    #opstandig{
+        top: 13vw;
+    }  
+}
+
+@media (max-width: 70em) { 
+    #opstandig{
+        top: 12vw;
+    }  
+}
+
+@media (max-width: 63em) { 
+    #opstandig{
+        top: 14vw;
+    }
+    .content__main .column{
+        height: 23vw;
+    } 
+}
+
+@media (max-width: 50em){
+    .content__main .column{
+        width: 50%;
+        height: 23vw;
+    }
+    #opstandig{
+        top: 18vw;
+    }
+}
+
+@media (max-width: 45em){
+    #opstandig{
+        top: 14vw;
+    }
+    .content__main .column{
+        height: 26vw;
+    }
+}
+
+@media (max-width: 36em){
+    .content__main .column{
+        height: 32vw;
+    }
+}
+
+

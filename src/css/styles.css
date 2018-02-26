@@ -47,11 +47,7 @@ a:hover {
     max-width: 96rem;
     min-width: 48rem;
     margin: auto;
-<<<<<<< HEAD
-    background-color:#FFF;
-=======
     background-color: #fff;
->>>>>>> be91171fac0fd8355282832a9008fa8eecf53b01
 }
 
 h2, h3 {
@@ -90,31 +86,7 @@ header {
 
 /* logo */
 
-<<<<<<< HEAD
-.header__logo {
-    float: left;
-    margin-left: 1rem;
-}
-
-.header__logo a {
-    background-image: url(../img/logo.png);
-	width: 12rem;
-	height: 12rem;
-	background-repeat: no-repeat;
-}
-
-.logo__title {
-    font-size: 4rem;
-}
-
-.logo__title a {
-    color: #333;
-}
-
-.logo__title a:hover {
-=======
 .menu__logo {
->>>>>>> be91171fac0fd8355282832a9008fa8eecf53b01
     text-decoration: none;
     font-size: 2rem;
 }

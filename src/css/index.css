@@ -68,6 +68,7 @@ iframe{
     width: 33%;
     float: left;
     height: 20vw;
+    border: white 1px solid;
 }
 
 .column__black{
@@ -75,9 +76,8 @@ iframe{
 }
 
 .column__red{
-    background-color: red;
+    background-color: #c20e1a;
     text-align: center;
-    border: black 1px solid;
 }
 .column__red h3{
     position: relative;

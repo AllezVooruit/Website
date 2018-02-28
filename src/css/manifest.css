@@ -10,8 +10,14 @@
 * MANIFEST - MANIFEST
 =============================================== */
 
-.manifest__text {
-    line-height: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+.manifest__file {
+    width: 105%;
+}
+
+.page__content {
+    margin: 2.5rem 0 0 -4.5rem;
+}
+
+.page__footer {
+    margin-top: 0rem;
 }

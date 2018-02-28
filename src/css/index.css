@@ -67,7 +67,7 @@ iframe{
 .content__main .column {
     width: 33%;
     float: left;
-    height: 20vw;
+    height: 18vw;
     border: white 1px solid;
 }
 
@@ -96,7 +96,7 @@ iframe{
 
 #opstandig{
     position: relative;
-    top: 14vw;
+    top: 12vw;
 }
 
 .first{
@@ -114,13 +114,13 @@ iframe{
    ========================================================================== */
 @media (max-width: 80em) { 
     #opstandig{
-        top: 13vw;
+        top: 11vw;
     }  
 }
 
 @media (max-width: 70em) { 
     #opstandig{
-        top: 12vw;
+        top: 11vw;
     }  
 }
 

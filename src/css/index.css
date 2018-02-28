@@ -84,6 +84,10 @@ iframe{
     top: 7vw;    
 }
 
+.column:nth-child(3n){
+    width: 34%;
+}
+
 .column h3{
     color: white;
     padding:0 5%;
@@ -99,13 +103,27 @@ iframe{
     top: 12vw;
 }
 
+.column__intro{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .first{
     background-color: black;
 }
 
 .content__main p {
     text-align: left;
-    padding: 1rem;
+    /*padding: 1rem;*/
+}
+
+.page__footer{
+    margin-top: 0;
+}
+
+.content__main{
+    margin-top:4rem;
 }
 
 

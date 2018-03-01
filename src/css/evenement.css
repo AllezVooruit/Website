@@ -98,13 +98,9 @@
 .item__text {
     width: 66.66%;
     float: left;
-<<<<<<< HEAD
-    padding: 2rem;
-=======
     padding: 1rem 0rem 0rem 2rem;
 }
 
 .page__footer{
     margin-top: 0rem;
->>>>>>> 38d9771a9c53ee44c837ca1bdf8ec49fc0fc6297
 }

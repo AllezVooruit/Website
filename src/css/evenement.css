@@ -21,8 +21,8 @@
         display: block;
         width: 33%;
         float: left;
-        height: 16vw;
-        line-height: 16vw;
+        height: 32rem;
+        line-height: 32rem;
         text-align: center;
         color:white;
         background-color: black;
@@ -48,8 +48,8 @@
         display: block;
         width: 33%;
         float: left;
-        height: 16vw;
-        line-height: 16vw;
+        height: 32rem;
+        line-height: 32rem;
         text-align: center;
         color:white;
         background-color: black;
@@ -61,7 +61,7 @@
     display: block;
     width: 33%;
     float: left;
-    height: 16vw;
+    height: 32rem;
     color: white;
     background-color: #c20e1a;
     text-align: center;
@@ -69,14 +69,14 @@
 }
 .introduction__info h3{
     position: relative;
-    top:7rem;
+    top:10rem;
 }
 
 #sfeerimg{
     width: 33%;
     float: left;
     border: white solid 1px;
-    height: 16vw;
+    height: 32rem;
 }
 
 
@@ -104,7 +104,7 @@
 .item__text {
     width: 66%;
     float: left;
-    padding: 2rem;
+    padding: 1rem 0rem 0rem 2rem;
 }
 
 .page__footer{

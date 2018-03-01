@@ -81,7 +81,7 @@ iframe{
 }
 .column__red h3{
     position: relative;
-    top: 7vw;    
+    top: 10rem;    
 }
 
 .column:nth-child(3n){
@@ -100,7 +100,7 @@ iframe{
 
 #opstandig{
     position: relative;
-    top: 12vw;
+    top: 20rem;
 }
 
 .column__intro{
@@ -130,50 +130,28 @@ iframe{
 /* ==========================================================================
    Resposive stuff
    ========================================================================== */
-@media (max-width: 80em) { 
-    #opstandig{
-        top: 11vw;
-    }  
-}
-
-@media (max-width: 70em) { 
-    #opstandig{
-        top: 11vw;
-    }  
-}
-
-@media (max-width: 63em) { 
-    #opstandig{
-        top: 14vw;
-    }
+@media (max-width: 55em){
     .content__main .column{
-        height: 23vw;
-    } 
-}
-
-@media (max-width: 50em){
-    .content__main .column{
-        width: 50%;
-        height: 23vw;
+        height: 23rem;
     }
     #opstandig{
-        top: 18vw;
+        top: 14rem;
+    }
+    .column__red h3{
+        top: 6rem;    
     }
 }
 
 @media (max-width: 45em){
-    #opstandig{
-        top: 14vw;
-    }
     .content__main .column{
-        height: 26vw;
+        width: 50%;
+        height: 25rem;
+    }
+    #opstandig{
+        top:17rem;
     }
 }
 
-@media (max-width: 36em){
-    .content__main .column{
-        height: 32vw;
-    }
-}
+
 
 

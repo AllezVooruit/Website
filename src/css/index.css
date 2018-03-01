@@ -65,7 +65,7 @@ iframe{
 }
 
 .content__main .column {
-    width: 33%;
+    width: 33.33%;
     float: left;
     height: 30rem;
     border: white 1px solid;
@@ -82,10 +82,6 @@ iframe{
 .column__red h3{
     position: relative;
     top: 10rem;    
-}
-
-.column:nth-child(3n){
-    width: 34%;
 }
 
 .column h3{

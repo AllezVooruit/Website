@@ -5,61 +5,58 @@
 /* ===========================================
     Content
     =========================================== */
-.blogs__title{
-    display: none;
+.blogs__title {
+  display: none;
 }
 /* =============================================
 * BLOG - BLOG
 =============================================== */
 
-
-.content__blogs:first-child{
+.page__content {
     margin-top: 5rem;
 }
 
-
 .blog__left {
-    float: left;
-    width: 20%;
-    padding-right: 1rem;
-    background-color: black;
-    color: white;
-    border:solid white 1px;
+  float: left;
+  width: 27.77%;
+  background-color: black;
+  color: white;
+  border: solid white 1px;
 }
-.blog__title{
-    margin: 0;
-    text-align: center;
-    padding: 1rem;
+.blog__title {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
 }
 
 .left__info {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:1rem;
-    margin-bottom: 1rem;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .left__img {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 .info__profileName {
-    float: left;
+  float: left;
 }
 
 .info__date {
-    float: right;
+  float: right;
 }
 
 .blog__right {
-    padding: 2rem 2rem 0 2rem;
-    width: 72%;
-    float: left;
+  padding: 1rem 2rem 0 2rem;
+  width: 70%;
+  display: block;
+  float: left;
 }

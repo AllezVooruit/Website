@@ -60,10 +60,6 @@ iframe{
     
 }
 
-.content__list li:last-child {
-    border-right: none;
-}
-
 .content__main .column {
     width: 33.33%;
     float: left;

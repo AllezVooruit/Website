@@ -16,6 +16,7 @@
 
 .page__content {
     margin: 2.5rem 0 0 -4.5rem;
+    overflow: hidden;
 }
 
 .page__footer {

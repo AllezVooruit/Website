@@ -13,37 +13,40 @@
 =============================================== */
 
 .page__content {
-    margin-top: 5rem;
+  margin-top: 5rem;
+}
+
+.blogs__blog {
+  display: inline-block;
+  margin-bottom: -0.6rem;
+  color: #fff;
+  border: 1px #fff solid;
+  background-color: #000;
 }
 
 .blog__left {
   float: left;
-  width: 27.77%;
+  width: 33.34%;
   background-color: black;
   color: white;
-  border: solid white 1px;
+  border-right: 2px #fff solid;
+  position: relative;
+  overflow: hidden;
 }
 .blog__title {
-  margin: 0;
   text-align: center;
-  padding: 1rem;
 }
 
 .left__info {
+  position: absolute;
   width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  bottom: 0;
+  left: 10%;
 }
 
 .left__img {
   width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
 }
 
 .info__profileName {
@@ -55,8 +58,26 @@
 }
 
 .blog__right {
-  padding: 1rem 2rem 0 2rem;
-  width: 70%;
-  display: block;
+  width: 66.6%;
+  float: right;
+}
+
+.blog__right p {
+  margin: 0 2rem 2rem 2rem;
+}
+
+/* alternate article's */
+
+.blogs__blog:nth-child(odd) .blog__left {
+  float: right;
+  border-left: 2px #fff solid;
+  border-right: 0;
+}
+
+.blogs__blog:nth-child(odd) .blog__right {
   float: left;
+}
+
+.blogs__blog:nth-child(odd) {
+  background-color: #c20e1a;
 }

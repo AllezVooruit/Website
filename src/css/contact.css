@@ -9,16 +9,33 @@
 /* =============================================
 * CONTACT - CONTACT
 =============================================== */
-
+.content__contact{
+    width: 40%;
+    float: left;
+}
+.logo{
+    width: 45%;
+    float: left;
+}
 /* =============================================
 * CONTACT - VOORUIT
 =============================================== */
 
+.content__vooruit{
+    margin-top:4rem;
+}
 .vooruit__link img {
     display: block;
-    margin: auto;
+    margin-right: 4rem;
+    width: 25%;
+    float: left;
 }
-
+.map{
+    width:30%;
+    height: 30rem;
+    float: left;
+    display: block;
+}
 /* =============================================
 * CONTACT - CHAT
 =============================================== */
@@ -27,3 +44,4 @@
     width: 100%;
     margin: 0 auto;
 }
+

@@ -11,11 +11,11 @@
 =============================================== */
 
 .manifest__file {
-    width: 105%;
+    width: 100%;
 }
 
 .page__content {
-    margin: 2.5rem 0 0 -4.5rem;
+    margin: 2.5rem 0 0;
 }
 
 .page__footer {

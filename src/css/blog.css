@@ -17,11 +17,17 @@
     margin-top: 5rem;
 }
 
+.content__blogs {
+    width: 100%;
+}
+
+.blogs__blog {
+    width: 100%;
+}
 
 .blog__left {
     float: left;
-    width: 20%;
-    padding-right: 1rem;
+    width: 30%;
     background-color: black;
     color: white;
     border:solid white 1px;

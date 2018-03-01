@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #ccc;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.4rem;
     margin-top: 0rem;
@@ -130,7 +130,6 @@ header {
     =========================================== */
 
 .page__footer {
-    margin-top: 1rem;
     color: #fff;
     background-color: #fff;
 }

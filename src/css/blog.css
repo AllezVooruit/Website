@@ -61,10 +61,12 @@
 .blog__right {
   width: 66.63%;
   float: right;
+  overflow: hidden;
+  height: 100%;
 }
 
 .blog__right p {
-  margin: 0 2rem 2rem 2rem;
+  margin: 1rem 3rem 0 4rem;
 }
 
 /* alternate article's */

@@ -79,7 +79,7 @@
                     <li></li>
                     <li></li>
                     <li class="menu__text selected">
-                        <a href="contact.html" class="selected">Contacten</a>
+                        <a href="contact.html" class="selected">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -89,19 +89,30 @@
         <!-- content -->
         <section class="page__content">
             <div class="content__contact clearfix">
-                <h2 class="contact__title">Contact</h2>
-                <p>Email: allezvooruit2018@gmail.com <br> Telefoonnummer: 0412345678</p>
-                <img class="logo" src="img/odiseeLogo.png"  alt="" />
-                <img class="logo" src="img/lucaLogo.jpg" alt="" />
+                <ul class="contact__list">
+                    <li class="list__item item__email">
+                        <h3>allezvooruit2018</h3>
+                        <h3 id="gmail">@gmail.com</h3>
+                    </li>
+                    <a href="https://www.odisee.be/">
+                        <li class="list__item logo__odisee"></li>
+                    </a>
+                    <a href="http://www.luca-arts.be/">
+                        <li class="list__item logo__luca"></li>
+                    </a>
+                    <li class="list__item small"></li>
+                    <li class="list__item small"></li>
+                    <li class="list__item"></li>
+                    <a href="https://vooruit.be/">
+                        <li class="list__item logo__vooruit"></li>
+                    </a>
+                    <li class="list__item">
+                        <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=vooruit%20gent&key=AIzaSyAi8R9Jp_DaWnMe446isuux7XiTMGSrZqg"
+                            allowfullscreen></iframe>
+                    </li>
+                </ul>
             </div>
-            <div class="content__vooruit">
-                <a href="https://vooruit.be/" class="vooruit__link">
-                    <img src="img/vooruitLogo.png" alt="De Vooruit">
-                    <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=vooruit%20gent&key=AIzaSyAi8R9Jp_DaWnMe446isuux7XiTMGSrZqg"
-                        allowfullscreen></iframe>
-                </a>
-            </div>
-            <div class="content__chat">
+            <div class="content__chat clearfix">
                 <h2 class="chat__title structural">Chat</h2>
                 <div class="chat__chatbox">
                     <div class="fb-comments" data-href="http://www.niet-achteruit.be/" width="100%" data-numposts="5"></div>
@@ -163,8 +174,7 @@
             </nav>
         </footer>
     </div>
-    <script src="../vendor/jquery-3.2.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+    <script src="scripts/facebook.js"></script>
 </body>
 
 </html>

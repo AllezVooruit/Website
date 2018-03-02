@@ -9,39 +9,98 @@
 /* =============================================
 * CONTACT - CONTACT
 =============================================== */
-.content__contact{
-    width: 40%;
-    float: left;
+
+.content__contact {
+  width: 40%;
+  float: left;
 }
-.logo{
-    width: 45%;
-    float: left;
+.logo {
+  width: 45%;
+  float: left;
 }
+
+.content__contact {
+  width: 100%;
+}
+
+.contact__list {
+  width: 100%;
+}
+
+.list__item {
+  display: block;
+  list-style-type: none;
+  background-color: #000;
+  float: left;
+  border: 1px #fff solid;
+  width: 30%;
+  height: 25rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.item__email {
+    float: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.item__email #gmail {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.small {
+  width: 10%;
+}
+
+.logo__odisee {
+  background-image: url("../img/odiseeLogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.logo__luca {
+  background-image: url("../img/lucaLogo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #fff;
+}
+
+.contact__list a>li:hover {
+    opacity: .7;
+}
+
 /* =============================================
 * CONTACT - VOORUIT
 =============================================== */
 
-.content__vooruit{
-    margin-top:4rem;
+.logo__vooruit {
+  background-image: url("../img/vooruitLogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  background-color: #fff;
 }
-.vooruit__link img {
-    display: block;
-    margin-right: 4rem;
-    width: 25%;
-    float: left;
+
+.map {
+  width: 100%;
+  height: 25rem;
+  display: block;
+  background-color: #fff;
 }
-.map{
-    width:30%;
-    height: 30rem;
-    float: left;
-    display: block;
-}
+
 /* =============================================
 * CONTACT - CHAT
 =============================================== */
 
 .chat__chatbox {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
-

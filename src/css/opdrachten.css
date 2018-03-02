@@ -6,6 +6,13 @@
     Content
     =========================================== */
 
+    .page__content  {
+        background-image: url("../img/underMaintenance.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 20rem 10rem 20rem 10rem;
+    }
+
 /* =============================================
 * OPDRACHTEN - TABLE
 =============================================== */

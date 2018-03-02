@@ -15,7 +15,12 @@
 }
 
 .page__content {
+<<<<<<< HEAD
     margin: 2.5rem 0 0;
+=======
+    margin: 2.5rem 0 0 -4.5rem;
+    overflow: hidden;
+>>>>>>> e201b97a05f89feea967f28d9e3bf37a59a94cfb
 }
 
 .page__footer {

@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-color: #FFF;
+    background-color: #fff;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1.4rem;
     margin-top: 0rem;
@@ -81,7 +81,7 @@ h2, h3 {
 header {
     background-color: #FFF;
     height: 10rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 /* logo */
@@ -121,7 +121,7 @@ header {
 .header__logo {
     font-weight: bold;
     font-size: 2rem;
-    margin-left: 24rem;
+    margin-left: 25%;
     letter-spacing: 2px;
 }
 

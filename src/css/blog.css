@@ -27,8 +27,8 @@
 .blog__left {
   float: left;
   width: 33.37%;
-  background-color: black;
-  color: white;
+  background-color: #fff;
+  color: #fff;
   border-right: 2px #fff solid;
   position: relative;
   overflow: hidden;
@@ -61,8 +61,10 @@
 .blog__right {
   width: 66.63%;
   float: right;
-  overflow: hidden;
-  height: 100%;
+  overflow-y:scroll;
+  height: auto;
+  line-height: 2.4rem;
+  padding-bottom: 2rem;
 }
 
 .blog__right p {

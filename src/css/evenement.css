@@ -91,17 +91,10 @@
 .item__text {
   width: 66.5%;
   float: left;
-  padding: 2% 1rem 0rem 3rem;
+  padding: 2% 1rem 2% 3rem;
   color: #fff;
 }
 
 .page__footer {
   margin-top: 0rem;
 }
-
-/* alternate right-left */
-/*
-.list__item:nth-child(even) .item__img {
-    float: right;
-}
-*/

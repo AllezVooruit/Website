@@ -19,6 +19,7 @@
 
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     font-size: 1.4rem;
     margin-top: 0rem;
     line-height: 1.5;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,7 +47,7 @@ a:hover {
 
 .page__wrapper {
     max-width: 96rem;
-    min-width: 48rem;
+    min-width: 32rem;
     margin: auto;
     background-color: #fff;
 }
@@ -227,7 +229,7 @@ header {
 /* Style all font awesome icons */
 
 .fa {
-    padding: 20px;
+    padding: 2rem;
     font-size: 30px;
     width: 50px;
     text-align: center;

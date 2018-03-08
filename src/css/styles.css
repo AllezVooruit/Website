@@ -84,6 +84,10 @@ header {
 
 /* logo */
 
+.mobile__menu {
+    display: none;
+}
+
 .menu__logo {
     text-decoration: none;
     font-size: 2rem;
@@ -270,4 +274,123 @@ header {
 .fa-youtube {
     background: #ff0000;
     color: white;
+}
+
+.mobile__footer {
+    display: none;
+}
+
+.mobile__logo {
+    display: none;
+}
+
+.mobile__menu__button {
+    display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .footer__navigation {
+        display: none;
+    }
+
+    .mobile__footer {
+        display: inline-block;
+        width: 100%;
+        padding: 2rem 0.5rem;
+        margin-top: 4rem;
+        background-color: black;
+    }
+
+    .social__menu {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        list-style: none;
+        margin-top: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fa {
+        padding: initial;
+        color: white;
+        font-size: 3rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .social__menu__item {
+        float: left;
+    }
+
+    .mobile__logo {
+        margin: 0 auto;
+        display: block;
+        color: black;
+        padding: 2rem 0 0 2rem;
+        font-size: 3.2rem;
+    }
+
+    .mobile__partner img {
+        max-width: calc(100%/2 - 4rem);
+        margin: 1rem;
+    }
+
+    .mobile__logo:hover {
+        color: black;
+        opacity: 0.7;
+    }
+
+    .page__header {
+        height: initial;
+    }
+    .navigation__menu {
+        display: none;
+    }
+
+    .mobile__menu {
+        width: 100%;
+        display: none;
+        max-height: 0;
+        list-style: none;
+        background-color: black;
+    }
+
+    .open {
+        display: block;
+        max-height: 32rem;
+    }
+        
+    .mobile__menu__button {
+        position: absolute;
+        margin: 2rem;
+        z-index: 99999;
+        font-size: 2.2rem;
+        color: white;
+        display: block;
+        top: 0;
+        right: 0;
+        background-color: black;
+        padding: 1rem 0.5rem;
+        cursor: pointer;
+    }
+
+    .mobile__menu__item {
+        text-align: center;
+        padding: 1rem;
+        border: 1px 0 1px 0 solid white;
+    }
+
+    .mobile__menu__item a {
+        color: white;
+    }
+
+    .mobile__menu__item a:hover {
+        color: #c20e1a;
+    }
+
+    .mobile__menu__item--selected {
+        background-color: #c20e1a;
+    }
 }

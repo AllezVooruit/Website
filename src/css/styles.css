@@ -355,11 +355,14 @@ header {
         max-height: 0;
         list-style: none;
         background-color: black;
+        transition: all ease-in-out 0.5s;
+        -moz-transition: all ease-in-out 0.5s;
+        -webkit-transition: all ease-in-out 0.5s;
     }
 
     .open {
         display: block;
-        max-height: 32rem;
+        max-height: 42rem;
     }
         
     .mobile__menu__button {
@@ -378,7 +381,8 @@ header {
 
     .mobile__menu__item {
         text-align: center;
-        padding: 1rem;
+        padding: 2rem;
+        font-size: 2rem;
         border: 1px 0 1px 0 solid white;
     }
 

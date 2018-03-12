@@ -98,3 +98,17 @@
 .page__footer {
   margin-top: 0rem;
 }
+
+@media (max-width: 55em){
+    .introduction__info, .introduction__title, .item__img, .program__title, #sfeerimg{
+        height: 23rem;
+        line-height: 23rem;
+    }
+}
+
+@media (max-width: 45em){
+    .introduction__info, .introduction__title, .item__img, .program__title, #sfeerimg{
+        width: 50%;
+        height: 25rem;
+    }
+}

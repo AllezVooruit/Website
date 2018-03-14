@@ -104,11 +104,22 @@
         height: 23rem;
         line-height: 23rem;
     }
+    .introduction__info h3{
+      position: relative;
+      top: 9rem;
+      line-height: 1rem;
+    }
 }
 
 @media (max-width: 45em){
-    .introduction__info, .introduction__title, .item__img, .program__title, #sfeerimg{
+    .introduction__title, .item__img, .program__title, .introduction__text, .introduction__info{
         width: 50%;
         height: 25rem;
+    }
+    .introduction__text, .item__text{
+      width: 50%;
+    }
+    #sfeerimg{
+      display: none;
     }
 }

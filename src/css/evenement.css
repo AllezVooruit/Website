@@ -54,6 +54,7 @@
   float: left;
   height: 32rem;
   color: white;
+  overflow: hidden;
   background-color: #c20e1a;
   text-align: center;
   border: solid white 1px;
@@ -84,6 +85,7 @@
 .item__img {
   width: 33.37%;
   float: left;
+  overflow: hidden;
   background-color: #fff;
   border-right: 2px #fff solid;
 }

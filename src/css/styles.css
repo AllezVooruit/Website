@@ -222,10 +222,18 @@ header {
     height: 10rem;
 }
 
-.menu__partners img {
-    width: 90%;
-    height: 90%;
-    margin-top: .5rem;
+.partners__vooruit {
+    background-image: url("../img/vooruitLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.partners__na {
+    background-image: url("../img/logoInvert.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%;
 }
 
 /* Social Media Icons */
@@ -271,9 +279,12 @@ header {
 
 /* Youtube */
 
-.fa-youtube {
-    background: #ff0000;
-    color: white;
+.fa-mail {
+    background-color: #fff;
+    background-image: url("../img/mail.png");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .mobile__footer {

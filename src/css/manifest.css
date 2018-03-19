@@ -6,22 +6,346 @@
     Content
     =========================================== */
 
+    .page__content {
+        font-size: 1.7rem;
+    }
+
 /* =============================================
 * MANIFEST - MANIFEST
 =============================================== */
 
-.manifest__file {
-    width: 100%;
+/* Title */
+
+.manifest__title li {
+    display: block;
+    list-style: none;
+    width: 8.33%;
+    line-height: 5rem;
+    height: 5rem;
+    float: left;
+    background-color: #000;
+    border: 1px solid #fff;
 }
 
-.page__content {
-    overflow: hidden;
+.manifest__title {
+    margin-bottom: 1rem;
+    margin-left: 16.66666%;
+    margin-right: 16.66666%;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-.page__footer {
-    margin-top: 0rem;
+.title__under {
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 1rem;
 }
 
-.content__manifest {
-    margin: -2.5rem 0 -4rem -3.5rem;
+/* schrijf mee */
+
+.manifest__title .title__link {
+    background-color: #c20e1a;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.hovered li {
+    opacity: .7;
+}
+
+.title__first .title__link {
+    width: 25%;
+}
+
+.title__second .title__link {
+    width: 16.66666%;
+    border-top: none;
+    height: 5.1rem;
+    margin-top: -.1rem;
+}
+
+/* First */
+
+.manifest__first {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.first__comment {
+    margin-top: 6rem;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Gelijk */
+
+.manifest__gelijk ul li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: left;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+/* second */
+
+.gelijk__second li:first-child {
+    padding-left: 1.5rem;
+    width: 50%;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+/* third */
+
+.gelijk__third li:first-child {
+    padding-left: 1.5rem;
+    width: 50%;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+/* comment */
+
+.gelijk__comment {
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+/* Bold */
+
+.bold__list li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: right;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.bold__firstTitle {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.bold__secondTitle {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Fork */
+
+.manifest__fork ul li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: left;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+/* second */
+
+.fork__second li:last-child {
+    width: 50%;
+    background-color: #fff;
+    color: #000;
+    line-height: 2.5rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* third */
+
+.fork__third li:last-child {
+    width: 50%;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* Revolutie */
+
+.manifest__revolutie {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.manifest__revolutie p {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.manifest__revolutie p:first-child {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+/* Hand */
+
+.manifest__hand ul li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: right;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+/* third */
+
+.hand__third li:last-child {
+    width: 66%;
+    background-color: #fff;
+    color: #000;
+    line-height: 2.5rem;
+    text-align: left;
+    padding: 0 1rem 0 1rem;
+}
+
+/* seventh */
+
+.hand__seventh {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* Leren */
+
+.manifest__leren p {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.manifest__leren p:last-child {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* Last */
+
+.last__row {
+    margin-bottom: 1rem;
+}
+
+.last__row li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: right;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.last__space {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.manifest__last .right {
+    margin-left: 30%;
+}
+
+.manifest__last .left {
+    margin-left: 3%;
+}
+
+.manifest__last .middle {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.manifest__last p:last-child {
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+/* Pyramid */
+
+.manifest__pyramid ul li {
+    display: block;
+    list-style: none;
+    width: 5.555555%;
+    line-height: 5rem;
+    height: 5rem;
+    float: left;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.pyramid__first li:first-child {
+    margin-left: 55.555555%;
+}
+
+.pyramid__second li:first-child {
+    margin-left: 49.99999%;
+}
+
+.pyramid__third li:first-child {
+    margin-left: 33.333333%;
+}
+
+.pyramid__fourth li:first-child {
+    margin-left: 33.333333%;
+}
+
+/* schrijf mee */
+
+.manifest__pyramid .pyramid__link {
+    background-color: #c20e1a;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.pyramid__third .pyramid__link {
+    width: 16.66666%;
+}
+
+.pyramid__fourth .pyramid__link {
+    width: 11.111111%;
+    border-top: none;
+    height: 5.1rem;
+    margin-top: -.1rem;
 }
